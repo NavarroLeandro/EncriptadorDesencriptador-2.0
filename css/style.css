@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
+
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-brand img {
+  border-radius: 50%;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.navbar {
+  background: linear-gradient(to bottom, #17a2b8, #ffffff);
+}
+
+.table {
+  table-layout: fixed;
+}
+
+.gradiente-celeste {
+  height: 150px;
+  background-image: linear-gradient(to bottom, #17a2b8, #ffffff);
+  background-size: auto 100%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  position: relative;
+  z-index: 2;
+}
+
+.imagenAlura {
+  border-radius: 50%;
+}
+
+/* Centrar los botones */
+button {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Eliminar bordes del textarea */
+textarea {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #ced4da;
+  padding: 10px;
+  resize:"none";
+}
